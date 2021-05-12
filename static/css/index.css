@@ -1,0 +1,105 @@
+html,
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: whitesmoke;
+  font-family: 'Architects Daughter', cursive;
+}
+
+* {
+  margin: 0;
+}
+
+.image_presentation {
+    background-image: url("https://www.wallpapertip.com/wmimgs/71-713207_concert-wallpapers-party-wallpaper-hd.jpg");
+    background-size: cover ;
+    background-position: center center;
+    background-repeat: no-repeat ;
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.title-index {
+    position: relative;
+    font-size: 70px;
+    font-style: italic;
+    color: white;
+    text-shadow: 4px 4px rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.text-title-index {
+    position: relative;
+    bottom: 5%;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    text-shadow: 4px 4px rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.button-index {
+    display: flex;
+    padding: 10px;
+}
+
+.box-button {
+    display: flex;
+    width: 200px;
+    padding: 3px;
+    margin-top: 3vh;
+    margin-left: 45%;
+    justify-content: center;
+    background-color: rgb(156, 18, 211);
+    font-style: italic;
+    transform: skewX(-15deg);
+    box-shadow: 0 4px 10px 0 rgb(14, 14, 14);
+}
+
+.box-button:hover{
+    width: 250px;
+    transition: 0.5s;
+    box-shadow: 8px 8px #000000;
+    margin-left: 43%;
+}
+
+.button-index text{
+    font-size: 30px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.footerdiv {
+    background-color: #000000;
+    color: whitesmoke;
+    width: 100vw;
+    height: 80vh;
+    display: block;
+    position: relative;
+}

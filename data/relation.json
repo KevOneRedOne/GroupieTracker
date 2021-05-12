@@ -1,0 +1,657 @@
+{
+  "Relation_Datas": [
+    {
+      "id": 1,
+      "datesLocations": {
+        "dunedin-new_zealand": ["10-02-2020"],
+        "georgia-usa": ["22-08-2019"],
+        "los_angeles-usa": ["20-08-2019"],
+        "nagoya-japan": ["30-01-2019"],
+        "north_carolina-usa": ["23-08-2019"],
+        "osaka-japan": ["28-01-2020"],
+        "penrose-new_zealand": ["07-02-2020"],
+        "saitama-japan": ["26-01-2020"]
+      }
+    },
+    {
+      "id": 2,
+      "datesLocations": {
+        "noumea-new_caledonia": ["15-11-2019"],
+        "papeete-french_polynesia": ["16-11-2019"],
+        "playa_del_carmen-mexico": [
+          "05-12-2019",
+          "06-12-2019",
+          "07-12-2019",
+          "08-12-2019",
+          "09-12-2019"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "datesLocations": {
+        "lausanne-switzerland": ["25-09-1994"],
+        "london-uk": [
+          "10-05-2007",
+          "02-07-2005",
+          "29-10-1994",
+          "28-10-1994",
+          "27-10-1994",
+          "26-10-1994",
+          "23-10-1994",
+          "22-10-1994",
+          "21-10-1994",
+          "20-10-1994",
+          "19-10-1994",
+          "17-10-1994",
+          "16-10-1994",
+          "15-10-1994",
+          "14-10-1994",
+          "13-10-1994",
+          "12-10-1994"
+        ],
+        "lyon-france": ["23-09-1994"]
+      }
+    },
+    {
+      "id": 4,
+      "datesLocations": {
+        "auckland-new_zealand": ["27-02-2020"],
+        "bratislava-slovakia": ["20-11-2019"],
+        "budapest-hungary": ["18-11-2019"],
+        "minsk-belarus": ["15-11-2019"],
+        "new_south_wales-australia": ["22-02-2020"],
+        "queensland-australia": ["24-02-2020"],
+        "victoria-australia": ["19-02-2020"],
+        "yogyakarta-indonesia": ["01-03-2019"]
+      }
+    },
+    {
+      "id": 5,
+      "datesLocations": {
+        "california-usa": [
+          "16-12-2017",
+          "17-12-2017",
+          "21-10-2017",
+          "22-10-2017",
+          "13-08-2017",
+          "12-08-2017"
+        ],
+        "georgia-usa": ["01-08-2017"],
+        "nevada-usa": ["04-08-2017"]
+      }
+    },
+    {
+      "id": 6,
+      "datesLocations": {
+        "california-usa": ["28-04-2018", "29-04-2018"],
+        "san_isidro-argentina": ["16-03-2018", "17-03-2018", "18-03-2018"],
+        "sao_paulo-brazil": ["23-03-2018", "24-03-2018", "25-03-2018"]
+      }
+    },
+    {
+      "id": 7,
+      "datesLocations": {
+        "arizona-usa": ["08-10-2019"],
+        "california-usa": [
+          "19-10-2019",
+          "18-10-2019",
+          "17-10-2019",
+          "15-10-2019",
+          "12-10-2019",
+          "11-10-2019"
+        ],
+        "texas-usa": ["06-10-2019"]
+      }
+    },
+    {
+      "id": 8,
+      "datesLocations": {
+        "bilbao-spain": ["09-07-2020", "10-07-2020", "11-07-2020"],
+        "bogota-colombia": ["05-04-2019", "06-04-2019", "07-04-2019"],
+        "georgia-usa": ["08-06-2019"],
+        "lisbon-portugal": ["09-07-2020", "10-07-2020", "11-07-2020"],
+        "sao_paulo-brazil": ["05-04-2019", "06-04-2019", "07-04-2019"],
+        "stockholm-sweden": ["26-06-2020", "27-06-2020", "28-06-2020"],
+        "werchter-belgium": ["04-07-2020"]
+      }
+    },
+    {
+      "id": 9,
+      "datesLocations": {
+        "aarhus-denmark": ["12-06-2016"],
+        "dusseldorf-germany": ["15-06-2016"],
+        "manchester-uk": ["09-06-2016"],
+        "new_york-usa": ["14-09-2016", "11-09-2016"]
+      }
+    },
+    {
+      "id": 10,
+      "datesLocations": {
+        "berlin-germany": ["25-06-2020"],
+        "copenhagen-denmark": ["29-06-2020"],
+        "frankfurt-germany": ["23-06-2020"],
+        "stockholm-sweden": ["26-06-2020", "27-06-2020", "28-06-2020"],
+        "werchter-belgium": ["02-07-2020"]
+      }
+    },
+    {
+      "id": 11,
+      "datesLocations": {
+        "california-usa": ["06-12-2019"],
+        "doha-qatar": ["15-12-2019"],
+        "illinois-usa": ["07-12-2019"],
+        "minnesota-usa": ["09-12-2019"],
+        "mumbai-india": ["16-11-2019"]
+      }
+    },
+    {
+      "id": 12,
+      "datesLocations": {
+        "abu_dhabi-united_arab_emirates": ["27-11-2016"],
+        "new_york-usa": ["24-09-2016"],
+        "pennsylvania-usa": ["03-09-2016", "04-09-2016"]
+      }
+    },
+    {
+      "id": 13,
+      "datesLocations": {
+        "illinois-usa": ["06-09-2012"],
+        "merkers-germany": ["29-06-2012", "30-06-2012"],
+        "westcliff_on_sea-uk": ["07-10-2012"]
+      }
+    },
+    {
+      "id": 14,
+      "datesLocations": {
+        "arizona-usa": ["18-10-2019"],
+        "california-usa": ["17-10-2019"],
+        "nevada-usa": ["19-10-2019"]
+      }
+    },
+    {
+      "id": 15,
+      "datesLocations": {
+        "london-uk": ["10-12-2007", "15-03-2003"],
+        "maine-usa": ["17-04-1994"],
+        "new_york-usa": ["12-01-1995"]
+      }
+    },
+    {
+      "id": 16,
+      "datesLocations": {
+        "aarhus-denmark": ["02-09-1970"],
+        "berlin-germany": ["04-09-1970"],
+        "copenhagen-denmark": ["03-09-1970"],
+        "gothenburg-sweden": ["01-09-1970"]
+      }
+    },
+    {
+      "id": 17,
+      "datesLocations": {
+        "florida-usa": ["05-10-1979", "04-10-1979"],
+        "north_carolina-usa": ["02-10-1979"],
+        "south_carolina-usa": ["03-10-1979"]
+      }
+    },
+    {
+      "id": 18,
+      "datesLocations": {
+        "boulogne_billancourt-france": ["30-06-2020"],
+        "freyming_merlebach-france": ["09-12-2019"],
+        "hamburg-germany": ["24-06-2020"],
+        "klagenfurt-austria": ["01-12-2019"],
+        "nimes-france": ["01-07-2020"],
+        "ostrava-czech_republic": ["04-12-2019"],
+        "pagney_derriere_barine-france": ["25-01-2020"],
+        "sion-switzerland": ["08-07-2020", "09-07-2020"]
+      }
+    },
+    {
+      "id": 19,
+      "datesLocations": {
+        "london-uk": ["15-07-2020"],
+        "manchester-uk": ["18-07-2020"],
+        "nevada-usa": [
+          "29-01-2020",
+          "31-01-2020",
+          "03-02-2020",
+          "05-02-2020",
+          "08-02-2020",
+          "10-02-2020",
+          "13-02-2020",
+          "15-02-2020",
+          "20-05-2020",
+          "23-05-2020",
+          "25-05-2020",
+          "28-05-2020",
+          "30-05-2020",
+          "02-06-2020",
+          "04-06-2020"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "datesLocations": {
+        "barcelona-spain": ["04-10-1992", "03-10-1992", "02-10-1992"],
+        "madrid-spain": ["07-10-1992", "06-10-1992"],
+        "zaragoza-spain": ["09-10-1992"]
+      }
+    },
+    {
+      "id": 21,
+      "datesLocations": {
+        "recife-brazil": ["28-12-1995"],
+        "rio_de_janeiro-brazil": ["10-02-1996"]
+      }
+    },
+    {
+      "id": 22,
+      "datesLocations": {
+        "amsterdam-netherlands": ["06-08-2019"],
+        "budapest-hungary": ["23-07-2019"],
+        "burriana-spain": ["03-08-2019"],
+        "california-usa": ["08-09-2019", "07-09-2019"],
+        "cuxhaven-germany": ["19-07-2019"],
+        "leipzig-germany": ["17-08-2019"],
+        "monchengladbach-germany": ["15-08-2019"],
+        "napoca-romania": ["21-07-2019"],
+        "oulu-finland": ["27-07-2019"],
+        "salem-germany": ["16-08-2019"],
+        "skanderborg-denmark": ["08-08-2019"]
+      }
+    },
+    {
+      "id": 23,
+      "datesLocations": {
+        "berlin-germany": ["08-09-2018"],
+        "california-usa": ["24-05-2019", "26-05-2019"],
+        "canton-usa": ["04-08-2019"],
+        "del_mar-usa": ["22-09-2018"],
+        "las_vegas-usa": ["31-12-2018", "22-09-2018"],
+        "lisbon-portugal": ["04-09-2018"],
+        "mexico_city-mexico": ["17-11-2018", "18-10-2018"],
+        "monterrey-mexico": ["17-07-2018"],
+        "new_york-usa": ["25-05-2019"],
+        "quebec-canada": ["14-07-2019"],
+        "rio_de_janeiro-brazil": ["27-09-2019"],
+        "riyadh-saudi_arabia": ["22-11-2019", "07-09-2019"]
+      }
+    },
+    {
+      "id": 24,
+      "datesLocations": {
+        "amsterdam-netherlands": ["25-03-2019"],
+        "birmingham-uk": ["14-05-2019"],
+        "chicago-usa": ["30-05-2019"],
+        "copenhagen-denmark": ["01-05-2019"],
+        "manchester-uk": ["18-03-2019"],
+        "missouri-usa": ["18-01-2019"],
+        "paris-france": ["07-03-2019"],
+        "washington-usa": ["08-12-2018"],
+        "west_melbourne-australia": ["29-11-2019"]
+      }
+    },
+    {
+      "id": 25,
+      "datesLocations": {
+        "boston-usa": ["05-11-2019"],
+        "california-usa": ["12-10-2019"],
+        "cleveland-usa": ["12-11-2019"],
+        "madison-usa": ["16-11-2019"],
+        "new_york-us": ["08-11-2019"],
+        "sydney-australia": ["02-12-2019"],
+        "texas-usa": ["19-10-2019", "18-10-2019"],
+        "toronto-canada": ["13-11-2019"],
+        "utah-usa": ["15-10-2019"],
+        "west_melbourne-australia": ["04-12-2019"]
+      }
+    },
+    {
+      "id": 26,
+      "datesLocations": {
+        "aberdeen-uk": ["15-03-2020"],
+        "berlin-germany": ["22-11-2019"],
+        "cardiff-uk": ["11-03-2020"],
+        "dublin-ireland": ["08-03-2020", "09-03-2020", "28-11-2019"],
+        "glasgow-uk": ["05-03-2020", "06-03-2020"],
+        "london-uk": ["12-03-2020", "13-03-2020", "27-11-2019", "26-11-2019"],
+        "madrid-spain": ["08-07-2020"],
+        "manchester-uk": ["02-03-2020", "03-03-2020"],
+        "milan-italy": ["20-11-2019"],
+        "paris-france": ["25-11-2019"],
+        "stockholm-sweden": ["26-06-2020"],
+        "warsaw-poland": ["23-11-2019"]
+      }
+    },
+    {
+      "id": 27,
+      "datesLocations": {
+        "amsterdam-netherlands": ["07-11-2019"],
+        "colorado-usa": ["07-09-2020"],
+        "eindhoven-netherlands": ["14-11-2019"],
+        "lyon-france": ["18-11-2019"],
+        "michigan-usa": ["16-01-2020"],
+        "new_hampshire-usa": ["29-01-2020"],
+        "new_york-usa": ["29-02-2020", "23-05-2020"],
+        "oslo-norway": ["10-11-2019"],
+        "sochaux-france": ["20-11-2019"],
+        "warsaw-poland": ["22-11-2019"]
+      }
+    },
+    {
+      "id": 28,
+      "datesLocations": {
+        "aalborg-denmark": ["17-01-2020"],
+        "changzhou-china": ["27-12-2019"],
+        "colorado-usa": ["07-09-2020"],
+        "hong_kong-china": ["29-12-2019"],
+        "huizhou-china": ["15-12-2019"],
+        "jakarta-indonesia": ["13-12-2019", "14-12-2019", "15-12-2019"],
+        "michigan-usa": ["22-12-2019"],
+        "new_york-usa": ["29-11-2019"],
+        "sanya-china": ["01-01-2020"],
+        "seattle-usa": ["16-11-2019"],
+        "texas-usa": ["20-12-2019", "23-11-2019"],
+        "toronto-canada": ["22-11-2019"],
+        "washington-usa": ["30-11-2019"]
+      }
+    },
+    {
+      "id": 29,
+      "datesLocations": {
+        "columbia-usa": ["29-02-2020"],
+        "grand_rapids-usa": ["12-02-2020"],
+        "hershey-usa": ["22-02-2020"],
+        "indianapolis-usa": ["09-02-2020"],
+        "kansas_city-usa": ["05-02-2020"],
+        "montreal-usa": ["16-02-2020"],
+        "newark-usa": ["18-02-2020"],
+        "omaha-usa": ["04-02-2020"],
+        "philadelphia-usa": ["21-02-2020"],
+        "pittsburgh-usa": ["24-02-2020"],
+        "rosemont-usa": ["11-02-2020"],
+        "st_louis-usa": ["07-02-2020"],
+        "toronto-usa": ["14-02-2020"],
+        "uniondale-usa": ["19-02-2020"],
+        "washington-usa": ["27-02-2020"]
+      }
+    },
+    {
+      "id": 30,
+      "datesLocations": {
+        "atlanta-usa": ["14-10-2019"],
+        "frauenfeld-switzerland": ["11-07-2019"],
+        "houston-usa": ["10-11-2019", "09-11-2019", "24-08-2019"],
+        "london-uk": ["16-07-2019"],
+        "los_angeles-usa": ["24-11-2019"],
+        "new_orleans-usa": ["07-10-2019"],
+        "philadelphia-usa": ["31-08-2019"],
+        "santiago-chile": ["29-03-2020"],
+        "sao_paulo-brasil": ["05-04-2020"],
+        "turku-finland": ["05-07-2019"]
+      }
+    },
+    {
+      "id": 31,
+      "datesLocations": {
+        "boston-usa": ["10-10-2018"],
+        "brooklyn-usa": ["04-06-2019"],
+        "las_vegas-usa": ["01-11-2019", "02-11-2019", "03-11-2019"],
+        "montreal-canada": ["05-10-2018"],
+        "new_york-usa": ["01-10-2018"],
+        "philadelphia-usa": ["06-10-2018"],
+        "toronto-usa": ["04-10-2018"],
+        "washington-usa": ["08-10-2018"]
+      }
+    },
+    {
+      "id": 32,
+      "datesLocations": {
+        "berlin-germany": ["25-06-2020"],
+        "budapest-hungary": ["15-07-2020"],
+        "copenhagen-denmark": ["02-07-2020"],
+        "frankfurt-germany": ["23-06-2020"],
+        "imola-italy": ["05-07-2020"],
+        "krakow-poland": ["13-07-2020"],
+        "london-uk": ["10-07-2020"],
+        "stockholm-sweden": ["29-06-2020"],
+        "vienna-austria": ["07-07-2020"],
+        "zurich-switzerland": ["17-07-2020"]
+      }
+    },
+    {
+      "id": 33,
+      "datesLocations": {
+        "amityville-usa": ["22-03-2017"],
+        "chicago-usa": ["17-03-2017"],
+        "detroit-usa": ["15-03-2017"],
+        "minneapolis-usa": ["16-03-2017"],
+        "paris-france": ["31-03-2017"],
+        "philadelphia-usa": ["03-06-2017"]
+      }
+    },
+    {
+      "id": 34,
+      "datesLocations": {
+        "berlin-germany": ["03-06-2018"],
+        "charlotte-usa": ["25-09-2019"],
+        "chicago-usa": ["06-03-2017"],
+        "houston-usa": ["10-11-2017"],
+        "inglewood-usa": ["25-11-2017"],
+        "los_angeles-usa": ["24-11-2017"],
+        "madrid-spain": ["04-06-2017"],
+        "oakland-usa": ["21-11-2017"]
+      }
+    },
+    {
+      "id": 35,
+      "datesLocations": {
+        "anaheim-usa": ["24-03-1989"],
+        "birmingham-uk": ["25-06-1989"],
+        "brooklyn-usa": ["03-09-2016"],
+        "chicago-usa": ["12-01-1989"],
+        "cincinnati-usa": ["18-06-1989"],
+        "windsor-canada": ["03-09-2015"]
+      }
+    },
+    {
+      "id": 36,
+      "datesLocations": {
+        "auckland-new_zealand": ["08-11-2019"],
+        "brisbane-australia": ["12-11-2019"],
+        "manila-philippine": ["11-12-2019"],
+        "melbourne-australia": ["15-11-2019"],
+        "mumbai-india": ["15-12-2019"],
+        "sydney-australia": ["22-11-2019"]
+      }
+    },
+    {
+      "id": 37,
+      "datesLocations": {
+        "bogota-colombia": ["07-04-2019"],
+        "lima-peru": ["26-03-2019"],
+        "rio_de_janeiro-brazil": ["03-04-2019"],
+        "san_isidro-argentina": ["29-03-2019"],
+        "santiago-chile": ["29-03-2019"],
+        "sao_paulo-brazil": ["03-04-2019"]
+      }
+    },
+    {
+      "id": 38,
+      "datesLocations": {
+        "antwerp-belgium": ["19-06-2020"],
+        "glasgow-australia": ["24-06-2020"],
+        "groningen-netherlands": ["14-06-2020"],
+        "london-uk": ["26-06-2020"],
+        "paris-france": ["13-06-2020"],
+        "vienna-austria": ["21-06-2020"]
+      }
+    },
+    {
+      "id": 39,
+      "datesLocations": {
+        "boston-usa": ["13-10-2018"],
+        "chicago-usa": ["16-10-2018"],
+        "mexico_city-mexico": ["24-10-2018"],
+        "philadelphia-usa": ["11-10-2018"],
+        "pico_rivera-usa": ["20-10-2018"]
+      }
+    },
+    {
+      "id": 40,
+      "datesLocations": {
+        "berwyn-usa": ["31-12-2019"],
+        "dallas-usa": ["29-02-2020", "01-03-2020"],
+        "georgia-usa": ["07-02-2020", "08-02-2020", "11-02-2020"],
+        "houston-usa": ["07-03-2020"],
+        "london-uk": ["29-08-2020", "30-08-2020"],
+        "new_york-usa": ["15-02-2020", "14-02-2020", "18-02-2020"]
+      }
+    },
+    {
+      "id": 41,
+      "datesLocations": {
+        "birmingham-uk": ["06-07-2017"],
+        "brixton-uk": ["04-07-2017"],
+        "california-usa": ["27-10-2017"],
+        "london-uk": ["03-07-2017"],
+        "rotselaar-belgium": ["02-07-2017"]
+      }
+    },
+    {
+      "id": 42,
+      "datesLocations": {
+        "alabama-usa": ["15-05-2020"],
+        "athens-greece": ["05-06-2020"],
+        "california-usa": ["29-09-2019"],
+        "florence-italy": ["13-06-2020"],
+        "landgraaf-netherlands": ["19-06-2020"],
+        "los_angeles-usa": ["02-11-2019"],
+        "massachusetts-usa": ["22-05-2020"],
+        "rio_de_janeiro-brazil": ["03-10-2019"]
+      }
+    },
+    {
+      "id": 43,
+      "datesLocations": {
+        "abu_dhabi-united_arab_emirates": ["25-10-2019"],
+        "burswood-australia": ["27-02-2019"],
+        "melbourne-australia": ["24-02-2019"],
+        "sydney-australia": ["22-02-2019"],
+        "wellington-new_zealand": ["02-03-2019"]
+      }
+    },
+    {
+      "id": 44,
+      "datesLocations": {
+        "bangkok-thailand": ["11-03-2020"],
+        "hong_kong-china": ["20-03-2020"],
+        "los_angeles-usa": ["24-11-2019"],
+        "madrid-spain": ["30-10-2019"],
+        "manila-philippines": ["14-03-2020"],
+        "seoul-korea": ["22-03-2020"],
+        "seville-spain": ["03-11-2019"],
+        "taipei-taiwan": ["17-03-2020"]
+      }
+    },
+    {
+      "id": 45,
+      "datesLocations": {
+        "belo_horizonte-brazil": ["27-04-2020"],
+        "buenos_aires-argentina": ["18-04-2020"],
+        "mannheim-germany": ["25-09-2019"],
+        "munich-germany": ["23-08-2019"],
+        "porto_alegre-brazil": ["21-04-2020", "23-04-2020"],
+        "san_francisco-usa": ["06-09-2019", "08-09-2019"],
+        "santiago-chile": ["15-04-2020"],
+        "sao_paulo-brazil": ["25-04-2020"]
+      }
+    },
+    {
+      "id": 46,
+      "datesLocations": {
+        "california-usa": ["08-10-2017"],
+        "la_plata-argentina": ["14-11-2017", "15-11-2017"],
+        "london-uk": ["25-11-2019"],
+        "porto_alegre-brazil": ["11-11-2017"],
+        "sao_paulo-brazil": ["07-11-2017", "08-11-2017"]
+      }
+    },
+    {
+      "id": 47,
+      "datesLocations": {
+        "brasilia-brazil": ["03-03-2020"],
+        "dubai-united_arab_emirates": ["14-06-2019"],
+        "florida-usa": ["01-02-2020"],
+        "mexico_city-mexico": ["23-02-2020"],
+        "santiago-chile": ["28-02-2020"],
+        "sao_paulo-brazil": ["01-03-2020"],
+        "willemstad-netherlands_antilles": ["29-08-2019"]
+      }
+    },
+    {
+      "id": 48,
+      "datesLocations": {
+        "arras-france": ["03-07-2020"],
+        "california-usa": ["08-12-2019"],
+        "gdynia-poland": ["01-07-2020"],
+        "illinois-usa": ["13-12-2019"],
+        "oklahoma-usa": ["09-11-2019"],
+        "scheessel-germany": ["19-06-2020"],
+        "st_gallen-switzerland": ["25-06-2020"],
+        "texas-usa": ["08-11-2019"]
+      }
+    },
+    {
+      "id": 49,
+      "datesLocations": {
+        "arizona-usa": ["26-08-2019"],
+        "california-usa": ["22-08-2019"],
+        "florida-usa": ["31-08-2020"],
+        "washington-usa": ["14-08-2019"]
+      }
+    },
+    {
+      "id": 50,
+      "datesLocations": {
+        "buenos_aires-argentina": ["11-10-2019"],
+        "lima-peru": ["15-10-2019"],
+        "mexico_city-mexico": ["03-10-2019"],
+        "santiago-chile": ["13-10-2019"],
+        "sao_paulo-brazil": ["09-10-2019"]
+      }
+    },
+    {
+      "id": 51,
+      "datesLocations": {
+        "bogota-colombia": ["01-10-2019"],
+        "lisbon-portugal": ["20-06-2020"],
+        "massachusetts-usa": ["22-05-2020"],
+        "milan-italy": ["14-06-2020"],
+        "nevada-usa": ["06-12-2019"],
+        "nickelsdorf-austria": ["10-06-2020"],
+        "san_jose-costa_rica": ["04-10-2019"]
+      }
+    },
+    {
+      "id": 52,
+      "datesLocations": {
+        "colorado-usa": ["23-01-2020"],
+        "milan-italy": ["10-10-2020"],
+        "munich-germany": ["07-10-2020"],
+        "nevada-usa": [
+          "07-12-2019",
+          "14-12-2019",
+          "31-12-2019",
+          "11-01-2020",
+          "18-01-2020"
+        ],
+        "oregon-usa": ["05-12-2019"],
+        "prague-czech_republic": ["08-10-2020"],
+        "vancouver-canada": ["06-12-2019"]
+      }
+    }
+  ]
+}

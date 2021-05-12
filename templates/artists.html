@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupie Tracker</title>
+    <link rel="stylesheet" href="/static/css/artists.css">
+</head>
+<body>
+    <!-- <header></header> -->
+    <a class="back" href="/mainPage">RETOUR</a>
+
+    <div class="main_content">
+        <div class="card">
+            <h3>{{.NAME}}</h3>
+            <img src="{{.IMAGE}}" alt="Image Artistes">
+
+            <p>Première Apparition : {{.CREA_DATE}}</p>
+            <p>Date du Premier Album: {{.FIRST_ALBUM}}</p>
+
+            <p>Membres : </p>
+            <ul>
+                {{range .MEMBERS}}
+                <li>{{.}}</li>
+                {{end}}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

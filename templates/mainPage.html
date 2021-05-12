@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Groupie Tracker</title>
+    <link rel="icon" href="/static/img/icon/g.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="/static/css/mainPage.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="/"><img src="/static/img/icon/LOGO_YNOV.png" alt="LOGO_YNOV"></a>
+        <ul class="topnav">
+          <a href="#artistes">Artistes</a>
+          <a href="#filter">Filtres</a>
+        </ul>
+        <form class="Searchbar" action="/" method="POST">
+          <input class="Sch" type="text" placeholder="Rechercher..">
+        </form>
+      </nav>
+    </header>
+    <h1>Groupie Tracker</h1>
+    <div class="main_content">
+      <div class="card">
+        {{.}}
+        {{template }}
+
+        {{Range}}
+      </div>
+    </div>
+
+    <footer></footer>
+  </body>
+  <script src="/static/js/main.js"></script>
+</html>
