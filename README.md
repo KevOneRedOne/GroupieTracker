@@ -1,7 +1,5 @@
 # Groupie Tracker
 
-<hr>
-
 ## Objectives :
 
 Groupie Tracker consists on using a given API and manipulating the data contained inside of it to create a website,displaying its information.
