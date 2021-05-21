@@ -1,7 +1,123 @@
+html,
 body {
-    background-color: aqua;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.card img {
-    width: 50vw;
+* {
+  margin: 0;
+}
+
+.main_content{
+    background-image: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
+    width: 100vw;
+    height: 100vh;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: fixed;
+    z-index: 1;
+    background-size: 600% 100%;
+    animation: gradient 10s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0%
+    }
+    100% {
+      background-position: 100%
+    }
+}
+
+.card {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: grid;
+    grid-template: 0.25fr 0.75fr / 0.25fr 0.75fr;
+    width: 90vw;
+    max-width: 1000px;
+    height: 90vw;
+    max-height: 1060px;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 2%;
+}
+.info{
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.concerts {
+    font-size: 20px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.cities {
+    text-transform: uppercase;
+}
+
+#map {
+    margin:2vw;
+    width: 80%;
+    height: 500px;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.back{
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    cursor: pointer;
+}
+.back:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+
+@media only screen and (max-height: 1090px) {
+    .card {
+        zoom:75%;
+        left:50%;
+        top:50%;
+        -moz-transform: scale(0.8);
+        -moz-transform-origin: -180% -200%;
+    }
+
 }

@@ -94,12 +94,62 @@ a {
     text-decoration: none;
 }
 
+.infoprojet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 30px;
+}
+
+.groupietckr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 30px;
+}
+
+.API img{
+    width:28vw;
+}
+
+.groupie img {
+    width:28vw;
+}
+
+.text{
+    text-align: justify;
+    margin: 4vw;
+    padding: 1vw;
+}
+
+.text h3 {
+    font-size: 1.7em;
+}
+
+.text p {
+    font-size: 1.4em;
+}
+
 
 .footerdiv {
     background-color: #000000;
     color: whitesmoke;
     width: 100vw;
-    height: 80vh;
-    display: block;
-    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.about-us{
+    width: 30vh;
+}
+.about-us p {
+    text-align: justify;
 }

@@ -5,34 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Groupie Tracker</title>
     <link rel="icon" href="/static/img/icon/g.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link href="/static/css/mainPage.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="/static/css/mainPage.css" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav class="navbar">
         <a href="/"><img src="/static/img/icon/LOGO_YNOV.png" alt="LOGO_YNOV"></a>
         <ul class="topnav">
-          <a href="#artistes">Artistes</a>
-          <a href="#filter">Filtres</a>
+          <button id="btn">Filtres</button>
         </ul>
-        <form class="Searchbar" action="/" method="POST">
-          <input class="Sch" type="text" placeholder="Rechercher..">
-        </form>
+          <input class="Searchbar" list="listArtists" type="text" placeholder="Rechercher..." onchange="location = this.value;">
+          <datalist id ="listArtists">
+            {{range $arti := .ArtistsData}}
+            <option value="/artists/{{$arti.ID}}">{{$arti.NAME}}</option>
+            {{end}}
+          </datalist>
       </nav>
     </header>
-    <h1>Groupie Tracker</h1>
+    
     <div class="main_content">
+      <div id="filter">
+        <h2>Affiner votre recherche</h2>
+        <br>
+        <form class="form-filter" action="/filter">
+          <div class="textarea">
+            <ul>
+              <li>
+                <label for="checkCreation">Première Apparition : </label>
+                <input type="text" name="creationDate" id="idCreationDate" placeholder="Entrer une année (2005)"> 
+              </li>
+              <br>
+              <li>
+                <label for="firstAlbum">Date du premier album : </label>
+                <select name="firstAlbum" id="firstAlbum">
+                    <option value="" selected="selected">Aucune Date</option>
+                  {{range $arti := .ArtistsData}}
+                    <option value="{{$arti.FIRST_ALBUM}}">{{$arti.FIRST_ALBUM}}</option>
+                  {{end}}
+                </select>
+              </li>
+              <br>
+              <li>
+                <label for="checkMembers">Nombre de membres : </label> 
+                <input type="range" min="1" max="8" step="1" name="members" id="idmembers" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
+                <span id="membersSliders">1</span>
+              </li>
+              <br>
+              <li>
+                <label for="city">Villes : </label>
+                <select name="CitySearch" id="citysearch">
+                  <option value="" selected="selected">Aucune Ville</option>
+                  {{range $loca := .LocationsData}}
+                    {{range $idk := $loca.LOCATIONS}}
+                    <option value="{{.}}">{{.}}</option>
+                    {{end}}
+                  {{end}}
+                </select>
+              </li>
+              <br>
+            </ul>
+          </div>
+          <button id="btn-filter">Filtrer</button>
+        </form>
+      </div>
       <div class="card">
-        {{.}}
-        {{template }}
-
-        {{Range}}
+        {{range $arti := .ArtistsData}}
+          <div class="artists">
+            <a href='/artists/{{$arti.ID}}'/>
+              <div class="descrip">
+                <h3> {{$arti.NAME}}</h3>
+              </div>
+              <img src="{{$arti.IMAGE}}" alt="{{$arti.NAME}}">
+            </a>
+          </div>
+        {{end}}
       </div>
     </div>
-
-    <footer></footer>
   </body>
-  <script src="/static/js/main.js"></script>
+  <script>
+    var btn = document.getElementById("btn");
+    var filter = document.getElementById("filter");
+
+    btn.addEventListener("click", () => {
+      if(getComputedStyle(filter).display != "none"){
+        filter.style.display = "none";
+      } else {
+        filter.style.display = "block";
+      }
+    })
+
+    function rangeSlide(value) {
+      document.getElementById('membersSliders').innerHTML = value;
+    }
+  </script>
 </html>

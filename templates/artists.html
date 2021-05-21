@@ -5,26 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Groupie Tracker</title>
     <link rel="stylesheet" href="/static/css/artists.css">
+    <link rel="icon" href="/static/img/icon/g.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <header></header> -->
-    <a class="back" href="/mainPage">RETOUR</a>
-
-    <div class="main_content">
-        <div class="card">
-            <h3>{{.NAME}}</h3>
+    <div class="card">
+        <div class="image">
             <img src="{{.IMAGE}}" alt="Image Artistes">
-
-            <p>Première Apparition : {{.CREA_DATE}}</p>
-            <p>Date du Premier Album: {{.FIRST_ALBUM}}</p>
-
-            <p>Membres : </p>
-            <ul>
-                {{range .MEMBERS}}
+        </div>
+        <div class="info">
+            <p class="name">{{.NAME}}</p>
+            <br>
+            <p class="infotitle"><strong>Première Apparition :</strong>{{.CREA_DATE}}</p>
+            <p class="infotitle"><strong>Date du Premier Album :</strong> {{.FIRST_ALBUM}}</p>
+            <p class="members"><strong>Membres :</strong> 
+                <ul>
+                    {{range .MEMBERS}}
+                    <li>{{.}}</li>
+                    {{end}}
+                </ul>
+            </p>
+        </div>
+        <div class="concerts">
+            <p class=""><strong>Concerts : </strong></p>
+            <br>
+            {{ range $key, $value := .DATESLOCAT }}
+            <p class="cities">{{$key}}</p>                           
+            <p class="dates">
+                {{ range $value }}
                 <li>{{.}}</li>
                 {{end}}
-            </ul>
+            </p>
+            <br>
+            {{ end }}
+        </div>
+        <div id="map"></div>
+
+        <div class="nav">
+            <a class="back" onclick="history.go(-1);">RETOUR</a>
         </div>
     </div>
+    <!--background-->
+    <div class="main_content"></div>
+    
+
 </body>
-</html>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+<script src="/static/js/map.js"></script>
+
+
+</html>r
