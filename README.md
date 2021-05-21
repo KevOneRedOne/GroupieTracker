@@ -1,10 +1,5 @@
 # Groupie Tracker
 
-## Members :
-- Alves Kévin
-- Djoudi Yanis
-- Moren Yohan
-
 <hr>
 
 ## Objectives :
