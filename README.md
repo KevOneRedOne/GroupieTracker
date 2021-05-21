@@ -3,8 +3,6 @@
 ## Members :
 - Alves Kévin
 - Djoudi Yanis
-- Draris Sofiane
-- Lamhaya Salah Eddine
 - Moren Yohan
 
 <hr>
